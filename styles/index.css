@@ -1,8 +1,20 @@
-body {
+html {
+    height: 100%;
+}
+
+  body {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    border: 2px solid red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
 }
 
 .header {
@@ -26,10 +38,13 @@ body {
     width: 75px;
 }
 
+
+
 .about > ul {
     display: flex;
     gap: 30px;
     margin-right: 15px;
+    list-style-type: none
 }
 
 .about  {
@@ -39,6 +54,22 @@ body {
     margin-right: 15px;
     gap: 15px;
 }
+
+
+
+.footer {
+    background-color: #82A4B4;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    margin-top: auto;
+    align-items: center;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
 
 
 
