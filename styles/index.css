@@ -1,14 +1,13 @@
-html {
+html{
     height: 100%;
 }
 
   body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
     margin: 0;
+    height: 2700px;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid red;
 }
 
 a {
@@ -20,22 +19,21 @@ a {
 .header {
     display: flex;
     background-color: #0573a7;
-    margin: 0px;
-    border: 2px solid red;
-    
+    margin: 0px;  
+    height: 50px; 
 }
 
 .logo {
     display: flex;
     align-items: center;
     padding-left: 0;
-    margin-left: 15px; 
+    margin-left: 150px; 
     gap: 15px;
     color: black;
 }
 
 .logo > img {
-    width: 75px;
+    width: 60px;
 }
 
 
@@ -43,7 +41,7 @@ a {
 .about > ul {
     display: flex;
     gap: 30px;
-    margin-right: 15px;
+    margin-right: 150px;
     list-style-type: none
 }
 
@@ -55,14 +53,135 @@ a {
     gap: 15px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    flex: 1;
+    gap: 200px;
+    background-color: #2A3949;
+
+
+}
+
+.information {
+    display: flex;
+    flex: 1;
+    justify-content:flex-end;
+    align-items: center;
+    background-image: url(../images/joshua-earle-wFWQmOyfkkM-unsplash.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.h2 {
+    font-size: 70px;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-right: 150px;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.examples {
+    flex: 1;
+    background-image: url(../images/desert.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.examples > h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.examples {
+    display: flex;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 70px;
+    margin:0 150px;
+}
+
+.examples > .images > div {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    margin-bottom:100px; 
+    display: flex;
+    flex: 1;
+}
+
+.examples > img {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+
+.quote {
+    flex: 1;
+}
+
+.sign-up {
+    flex: 1;
+}
+
+
 
 
 .footer {
     background-color: #82A4B4;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    margin-top: auto;
     align-items: center;
     gap: 5px;
     padding-top: 5px;
