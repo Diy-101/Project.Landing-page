@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 
-  body {
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -13,6 +13,11 @@ html{
 a {
     text-decoration: none;
     color: black;
+}
+
+img {
+    border-radius: 6px;
+
 }
 
 .header {
@@ -132,7 +137,6 @@ a {
 
 .examples {
     display: flex;
-    border: solid;
 }
 .images {
     display: flex;
@@ -141,12 +145,12 @@ a {
     align-items: center;
     height: 100%;
     gap: 70px;
+    margin-right: 160px;
+    margin-left: 160px;
 }
 
 .examples > .images > div {
-    background-color: white;
     border-radius: 10px;
-    width: 100%;
     height: 300px;
     margin-bottom:100px; 
     display: flex;
@@ -155,10 +159,16 @@ a {
 
 .examples > img {
     display: flex;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     flex-wrap: wrap;
+
+}
+
+.examples > .images > div > img {
+    box-shadow: 0 0 20px #444;
 }
 
 .quote {
@@ -234,7 +244,7 @@ a {
 .sign-up > div > #button > button {
     padding: 5px 30px;
     font-size: 17px;
-    background-color: rgb(250,146,90);
+    background-color: lightblue;
     color: black;
     border: 0px;
     border-radius: 5px;
